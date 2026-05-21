@@ -1,0 +1,80 @@
+[
+  {
+    "acronym": "TAM",
+    "stands_for": "Total Addressable Market",
+    "meaning_ja": "全潜在市場",
+    "meaning_en": "Total Addressable Market"
+  },
+  {
+    "acronym": "SAM",
+    "stands_for": "Serviceable Available Market",
+    "meaning_ja": "サービス可能市場",
+    "meaning_en": "Serviceable Available Market"
+  },
+  {
+    "acronym": "SOM",
+    "stands_for": "Serviceable Obtainable Market",
+    "meaning_ja": "取得可能市場",
+    "meaning_en": "Serviceable Obtainable Market"
+  },
+  {
+    "acronym": "PaaS",
+    "stands_for": "Platform as a Service",
+    "meaning_ja": "プラットフォーム・アズ・ア・サービス",
+    "meaning_en": "Platform as a Service"
+  },
+  {
+    "acronym": "SaaS",
+    "stands_for": "Software as a Service",
+    "meaning_ja": "ソフトウェア・アズ・ア・サービス",
+    "meaning_en": "Software as a Service"
+  },
+  {
+    "acronym": "AWS",
+    "stands_for": "Amazon Web Services",
+    "meaning_ja": "アマゾン・ウェブ・サービス",
+    "meaning_en": "Amazon Web Services"
+  },
+  {
+    "acronym": "GCP",
+    "stands_for": "Google Cloud Platform",
+    "meaning_ja": "グーグル・クラウド・プラットフォーム",
+    "meaning_en": "Google Cloud Platform"
+  },
+  {
+    "acronym": "EDR",
+    "stands_for": "Endpoint Detection and Response",
+    "meaning_ja": "エンドポイント検出・応答",
+    "meaning_en": "Endpoint Detection and Response"
+  },
+  {
+    "acronym": "MDR",
+    "stands_for": "Managed Detection and Response",
+    "meaning_ja": "マネージド検出・応答",
+    "meaning_en": "Managed Detection and Response"
+  },
+  {
+    "acronym": "CMS",
+    "stands_for": "Content Management System",
+    "meaning_ja": "コンテンツ管理システム",
+    "meaning_en": "Content Management System"
+  },
+  {
+    "acronym": "RAG",
+    "stands_for": "Retrieval Augmented Generation",
+    "meaning_ja": "情報検索拡張生成",
+    "meaning_en": "Retrieval Augmented Generation"
+  },
+  {
+    "acronym": "EPC",
+    "stands_for": "Engineering, Procurement and Construction",
+    "meaning_ja": "設計エンジニアリング（Engineering）、調達（Procurement）、建設（Construction）",
+    "meaning_en": "Engineering, Procurement and Construction"
+  },
+  {
+    "acronym": "LLM",
+    "stands_for": "Large Language Model",
+    "meaning_ja": "大規模言語モデル",
+    "meaning_en": "Large Language Model"
+  }
+]
