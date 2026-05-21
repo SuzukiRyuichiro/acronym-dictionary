@@ -1,16 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Acronym Search</title>
-</head>
-<body>
-<h1>Acronym Search</h1>
-<label for="lang-select">Language:</label>
-<select id="lang-select"></select>
-<br>
-<input id="search-box" type="text" placeholder="Search...">
-<ul id="results"></ul>
-<script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Acronym Search</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+  </head>
+  <body>
+    <div class="container" style="margin-top: 1rem;">
+      <h1>Acronym Search</h1>
+      <div class="grid" style="gap: 1rem; align-items: start;">
+        <label for="lang-select">Language:</label>
+        <select id="lang-select"></select>
+        <input id="search-box" type="text" placeholder="Search..." />
+      </div>
+      <div id="results" class="grid" style="gap: 1rem; margin-top: 1rem; grid-template-columns: repeat(3, 1fr);"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>

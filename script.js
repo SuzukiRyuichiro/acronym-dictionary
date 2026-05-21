@@ -53,17 +53,33 @@ function renderList(list) {
   const resultEl = document.getElementById('results');
   resultEl.innerHTML = '';
   if (list.length === 0) {
-    const li = document.createElement('li');
-    li.textContent = 'No results';
-    resultEl.appendChild(li);
+    const card = document.createElement('article');
+    card.textContent = 'No results';
+    resultEl.appendChild(card);
     return;
   }
   list.forEach(item => {
-    const li = document.createElement('li');
+    const card = document.createElement('article');
+
+    const header = document.createElement('header');
+    header.textContent = `${item.acronym} (${item.stands_for ?? ''})`;
+    card.appendChild(header);
+
     const meaningKey = `meaning_${currentLang}`;
     const meaning = item[meaningKey] || item.meaning_en || '';
-    li.textContent = `${item.acronym} - ${item.stands_for ?? ''} - ${meaning}`;
-    resultEl.appendChild(li);
+    const pMeaning = document.createElement('p');
+    pMeaning.textContent = meaning;
+    card.appendChild(pMeaning);
+
+    const explanationKey = `explanation_${currentLang}`;
+    const explanation = item[explanationKey] || '';
+    if (explanation) {
+      const footer = document.createElement('footer');
+      footer.textContent = explanation;
+      card.appendChild(footer);
+    }
+
+    resultEl.appendChild(card);
   });
 }
 
