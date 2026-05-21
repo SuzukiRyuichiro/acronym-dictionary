@@ -2,121 +2,113 @@
   {
     "acronym": "TAM",
     "stands_for": "Total Addressable Market",
-    "meaning_ja": "獲得可能な最大市場規模",
+    "meaning_ja": "製品やサービスが市場に取得できる最大市場規模",
     "meaning_en": "Total Addressable Market",
-    "explanation_ja": "Total Addressable Market（TAM）は、製品やサービスが市場の100%を獲得できた場合に取得できる総収益機会を指します。",
-    "explanation_en": "Total Addressable Market is the total revenue opportunity that a company can capture for a product or service if it achieved 100% market penetration."
+    "explanation_ja": "製品・サービスが市場で100%取得できたときに得られる総収益機会。",
+    "explanation_en": "Total revenue opportunity a company can capture if it reaches 100% market penetration."
   },
   {
     "acronym": "SAM",
     "stands_for": "Serviceable Available Market",
     "meaning_ja": "サービス可能市場",
     "meaning_en": "Serviceable Available Market",
-    "explanation_ja": "Serviceable Available Market（SAM）は、企業が製品・サービスを提供できる市場の範囲を指します。",
-    "explanation_en": "Serviceable Available Market represents the portion of TAM that a business can serve based on its products and geographic reach."
+    "explanation_ja": "企業が提供できる市場の範囲。",
+    "explanation_en": "Market portion a business can serve with its products and reach."
   },
   {
     "acronym": "SOM",
     "stands_for": "Serviceable Obtainable Market",
     "meaning_ja": "取得可能市場",
     "meaning_en": "Serviceable Obtainable Market",
-    "explanation_ja": "Serviceable Obtainable Market（SOM）は、企業が短期的に実現できる市場シェアを示します。",
-    "explanation_en": "Serviceable Obtainable Market is the realistic share of the market that a company can capture in the short term."
+    "explanation_ja": "企業が短期的に獲得できる市場シェア。",
+    "explanation_en": "Short-term market share a company can realistically capture."
   },
   {
     "acronym": "PaaS",
     "stands_for": "Platform as a Service",
     "meaning_ja": "プラットフォーム・アズ・ア・サービス",
     "meaning_en": "Platform as a Service",
-    "explanation_ja": "Platform as a Service（PaaS）は、開発者がインフラストラクチャを管理せずにアプリを構築・実行できるクラウドプラットフォームです。",
-    "explanation_en": "Platform as a Service provides a cloud-based platform allowing developers to build, run, and manage applications without handling the underlying infrastructure."
+    "explanation_ja": "開発者がインフラストラクチャを管理せずにアプリを構築・実行できるクラウドプラットフォーム。",
+    "explanation_en": "Cloud platform that lets developers build, run, and manage apps without handling infrastructure."
   },
   {
     "acronym": "SaaS",
     "stands_for": "Software as a Service",
     "meaning_ja": "ソフトウェア・アズ・ア・サービス",
     "meaning_en": "Software as a Service",
-    "explanation_ja": "Software as a Service（SaaS）は、インターネットを通じてサブスクリプションベースで提供されるソフトウェアで、インストール不要です。",
-    "explanation_en": "Software as a Service delivers software applications over the internet on a subscription basis, eliminating the need for on-premises installations."
+    "explanation_ja": "インターネットを通じてサブスクリプションベースで提供され、インストール不要のソフトウェア。",
+    "explanation_en": "Software delivered over the internet on a subscription basis, no installations needed."
   },
   {
     "acronym": "AWS",
     "stands_for": "Amazon Web Services",
     "meaning_ja": "アマゾン・ウェブ・サービス",
     "meaning_en": "Amazon Web Services",
-    "explanation_ja": "Amazon Web Services（AWS）は、計算、ストレージ、データベースなど多岐にわたるクラウドサービスを提供します。",
-    "explanation_en": "Amazon Web Services offers a broad set of global cloud services such as computing power, storage, and databases."
+    "explanation_ja": "Amazonが運営するコンピューター処理・ストレージ・データベースなど多岐にわたるクラウドサービス。",
+    "explanation_en": "Broad cloud services including computing, storage, and databases."
   },
   {
     "acronym": "GCP",
     "stands_for": "Google Cloud Platform",
     "meaning_ja": "グーグル・クラウド・プラットフォーム",
     "meaning_en": "Google Cloud Platform",
-    "explanation_ja": "Google Cloud Platform（GCP）は、データ解析やAIに強いクラウドサービスを提供します。",
-    "explanation_en": "Google Cloud Platform supplies cloud computing services similar to AWS, with strong support for data analytics and AI."
+    "explanation_ja": "グーグルが提供するクラウドコンピューティングプラットフォーム。",
+    "explanation_en": "Google Cloud Platform supplies cloud computing services with strong support for analysis and AI."
   },
   {
     "acronym": "EDR",
     "stands_for": "Endpoint Detection and Response",
     "meaning_ja": "エンドポイント検出・応答",
     "meaning_en": "Endpoint Detection and Response",
-    "explanation_ja": "Endpoint Detection and Response（EDR）は、端末を監視し脅威を検知・対応するソリューションです。",
-    "explanation_en": "Endpoint Detection and Response monitors endpoints to detect threats and respond automatically."
+    "explanation_ja": "端末を監視し脅威を検知・対応するソリューション。",
+    "explanation_en": "Monitors endpoints to detect and respond to threats."
   },
   {
     "acronym": "MDR",
     "stands_for": "Managed Detection and Response",
     "meaning_ja": "マネージド検出・応答",
     "meaning_en": "Managed Detection and Response",
-    "explanation_ja": "Managed Detection and Response（MDR）は、継続的に監視し、脅威に対処するサービスです。",
-    "explanation_en": "Managed Detection and Response is a proactive security service that continuously monitors and responds to cyber threats."
-  },
-  {
-    "acronym": "CMS",
-    "stands_for": "Content Management System",
-    "meaning_ja": "コンテンツ管理システム",
-    "meaning_en": "Content Management System",
-    "explanation_ja": "Content Management System（CMS）は、デジタルコンテンツの作成・編集・公開を管理するシステムです。",
-    "explanation_en": "Content Management System manages digital content creation, editing, and publishing workflows."
+    "explanation_ja": "継続的に監視し脅威に対処するサービス。",
+    "explanation_en": "Proactive service that continuously monitors and responds to threats."
   },
   {
     "acronym": "RAG",
     "stands_for": "Retrieval Augmented Generation",
     "meaning_ja": "情報検索拡張生成",
     "meaning_en": "Retrieval Augmented Generation",
-    "explanation_ja": "Retrieval Augmented Generation（RAG）は、関連情報を検索してから生成することで、より正確な応答を生成する手法です。",
-    "explanation_en": "Retrieval Augmented Generation enhances language models by retrieving relevant documents before generating responses."
+    "explanation_ja": "関連情報を検索してから生成し、より正確な応答を生成する手法。",
+    "explanation_en": "Enhances models by retrieving relevant documents before generating responses."
   },
   {
     "acronym": "EPC",
     "stands_for": "Engineering, Procurement and Construction",
     "meaning_ja": "エンジニアリング、調達、建設",
     "meaning_en": "Engineering, Procurement and Construction",
-    "explanation_ja": "Engineering, Procurement and Construction（EPC）は、大規模インフラプロジェクトを設計・調達・建設で一貫管理する手法です。",
-    "explanation_en": "Engineering, Procurement, and Construction refers to the integrated approach in large infrastructure projects that handles design, supply, and building."
+    "explanation_ja": "大規模インフラプロジェクトを設計・調達・建設で一貫管理する手法。",
+    "explanation_en": "Integrated approach for designing, procuring, and building large infrastructure."
   },
   {
     "acronym": "LLM",
     "stands_for": "Large Language Model",
     "meaning_ja": "大規模言語モデル",
     "meaning_en": "Large Language Model",
-    "explanation_ja": "Large Language Model（LLM）は、大量のテキストデータで訓練されたAIモデルで、人間のようなテキストを生成します。",
-    "explanation_en": "Large Language Model is an AI model trained on massive text data that can generate human-like text."
+    "explanation_ja": "大量のテキストデータで訓練されたAIモデルで、人間のようなテキストを生成する。",
+    "explanation_en": "AI model trained on vast text data to generate human-like text."
   },
   {
     "acronym": "DRI",
     "stands_for": "Directly Responsible Individual",
     "meaning_ja": "責任者",
     "meaning_en": "Directly Responsible Individual",
-    "explanation_ja": "Directly Responsible Individual（DRI）は、機能やタスクの責任を持ち、遂行を確実にします。",
-    "explanation_en": "Directly Responsible Individual owns accountability for a feature or task."
+    "explanation_ja": "機能やタスクの責任を持っている人。",
+    "explanation_en": "Person accountable for a feature or task."
   },
   {
     "acronym": "BFSI",
     "stands_for": "Banking, Financial Services, and Insurance",
-    "meaning_ja": "銀行業、金融サービス、保険",
+    "meaning_ja": "銀行業・金融サービス・保険",
     "meaning_en": "Banking, Financial Services, and Insurance",
-    "explanation_ja": "BFSI（Banking, Financial Services, and Insurance）は、銀行業、金融市場、保険サービスを含むセクターです。",
-    "explanation_en": "Banking, Financial Services, and Insurance is a sector that includes core banking, financial markets, and insurance services."
+    "explanation_ja": "銀行業・金融サービス・保険などのセクター。",
+    "explanation_en": "Business sector that includes core banking, financial markets, and insurance services."
   }
 ]

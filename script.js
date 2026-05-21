@@ -1,5 +1,8 @@
 const acronyms = [];
 let currentLang = 'en';
+// Override with stored preference if available
+const storedLang = localStorage.getItem('preferredLanguage');
+if (storedLang) currentLang = storedLang;
 let filtered = [];
 
 async function loadData() {
@@ -35,6 +38,7 @@ function initLangSelect() {
   select.value = currentLang;
   select.addEventListener('change', e => {
     currentLang = e.target.value;
+    localStorage.setItem('preferredLanguage', currentLang);
     renderList(filtered);
   });
 }
@@ -62,7 +66,7 @@ function renderList(list) {
     const card = document.createElement('article');
 
     const header = document.createElement('header');
-    header.textContent = `${item.acronym} (${item.stands_for ?? ''})`;
+    header.textContent = currentLang === 'en' ? `${item.acronym}` : `${item.acronym} (${item.stands_for ?? ''})`;
     card.appendChild(header);
 
     const meaningKey = `meaning_${currentLang}`;
@@ -74,9 +78,9 @@ function renderList(list) {
     const explanationKey = `explanation_${currentLang}`;
     const explanation = item[explanationKey] || '';
     if (explanation) {
-      const footer = document.createElement('footer');
-      footer.textContent = explanation;
-      card.appendChild(footer);
+      const explanationP = document.createElement('p');
+      explanationP.textContent = explanation;
+      card.appendChild(explanationP);
     }
 
     resultEl.appendChild(card);
