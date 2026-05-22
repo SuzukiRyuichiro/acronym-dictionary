@@ -1,3 +1,25 @@
+// Theme handling
+let currentTheme = 'dark';
+const storedTheme = localStorage.getItem('preferredTheme');
+if (storedTheme) currentTheme = storedTheme;
+function setTheme(theme) {
+  if (theme === 'light') {
+    document.documentElement.dataset.theme = 'light';
+  } else {
+    document.documentElement.removeAttribute('data-theme');
+  }
+  localStorage.setItem('preferredTheme', theme);
+  const toggle = document.getElementById('theme-toggle');
+  if (toggle) toggle.checked = theme === 'light';
+  const sunIcon = document.getElementById('sun-icon');
+  const moonIcon = document.getElementById('moon-icon');
+  if (sunIcon && moonIcon) {
+    if (theme === 'light') { sunIcon.style.display='inline'; moonIcon.style.display='none'; }
+    else { sunIcon.style.display='none'; moonIcon.style.display='inline'; }
+  }
+}
+setTheme(currentTheme);
+// End theme handling
 const acronyms = [];
 let currentLang = 'en';
 // Override with stored preference if available
@@ -84,6 +106,14 @@ function renderList(list) {
     }
 
     resultEl.appendChild(card);
+  });
+}
+
+const themeToggle = document.getElementById('theme-toggle');
+if (themeToggle) {
+  themeToggle.addEventListener('change', e => {
+    const theme = e.target.checked ? 'light' : 'dark';
+    setTheme(theme);
   });
 }
 
