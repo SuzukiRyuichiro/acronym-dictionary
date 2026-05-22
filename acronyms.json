@@ -110,5 +110,85 @@
     "meaning_en": "Banking, Financial Services, and Insurance",
     "explanation_ja": "銀行業・金融サービス・保険などのセクター。",
     "explanation_en": "Business sector that includes core banking, financial markets, and insurance services."
+  },
+  {
+    "acronym": "ROI",
+    "stands_for": "Return on Investment",
+    "meaning_ja": "投資利益率",
+    "meaning_en": "Return on Investment",
+    "explanation_ja": "投資額に対する利益率を表す指標。",
+    "explanation_en": "Metric comparing profit to an investment."
+  },
+  {
+    "acronym": "GPT",
+    "stands_for": "Generative Pre-trained Transformer",
+    "meaning_ja": "生成型事前学習トランスフォーマー",
+    "meaning_en": "Generative Pre-trained Transformer",
+    "explanation_ja": "大量のテキストで事前学習した自然言語生成モデル。",
+    "explanation_en": "Large language model pre-trained on massive text corpora."
+  },
+  {
+    "acronym": "CV",
+    "stands_for": "Computer Vision",
+    "meaning_ja": "コンピュータービジョン",
+    "meaning_en": "Computer Vision",
+    "explanation_ja": "コンピュータが画像を理解し、認識・解析できる技術。",
+    "explanation_en": "Technology enabling computers to interpret and analyze images."
+  },
+  {
+    "acronym": "CLI",
+    "stands_for": "Command Line Interface",
+    "meaning_ja": "コマンドラインインタフェース",
+    "meaning_en": "Command Line Interface",
+    "explanation_ja": "文字ベースで操作するユーザーインタフェース。",
+    "explanation_en": "Interface where users run textual commands."
+  },
+  {
+    "acronym": "PoC",
+    "stands_for": "Proof of Concept",
+    "meaning_ja": "コンセプト実証",
+    "meaning_en": "Proof of Concept",
+    "explanation_ja": "技術やアイデアが実現可能かを検証するデモ。",
+    "explanation_en": "Demonstration proving that a concept or technology works."
+  },
+  {
+    "acronym": "MVP",
+    "stands_for": "Minimum Viable Product",
+    "meaning_ja": "最小実行可能製品",
+    "meaning_en": "Minimum Viable Product",
+    "explanation_ja": "重要機能だけを搭載し、早期リリースできるプロダクト。",
+    "explanation_en": "Product with core features released quickly for feedback."
+  },
+  {
+    "acronym": "OCR",
+    "stands_for": "Optical Character Recognition",
+    "meaning_ja": "光学文字認識",
+    "meaning_en": "Optical Character Recognition",
+    "explanation_ja": "画像やスキャン文書から文字を抽出する技術。",
+    "explanation_en": "Technology that extracts text from images or scanned documents."
+  },
+  {
+    "acronym": "DM",
+    "stands_for": "Data Management",
+    "meaning_ja": "データ管理",
+    "meaning_en": "Data Management",
+    "explanation_ja": "データの収集・保存・保守を統括するプロセス。",
+    "explanation_en": "Processes for collecting, storing, and maintaining data."
+  },
+  {
+    "acronym": "MM",
+    "stands_for": "Model Management",
+    "meaning_ja": "モデル管理",
+    "meaning_en": "Model Management",
+    "explanation_ja": "AIモデルのバージョンやデプロイ状況を統括する仕組み。",
+    "explanation_en": "System that manages AI model versions and deployments."
+  },
+  {
+    "acronym": "PRD",
+    "stands_for": "Product Requirements Document",
+    "meaning_ja": "製品要件書",
+    "meaning_en": "Product Requirements Document",
+    "explanation_ja": "製品開発に必要な機能と仕様をまとめた文書。",
+    "explanation_en": "Document summarizing the features and specifications required for a product."
   }
 ]
