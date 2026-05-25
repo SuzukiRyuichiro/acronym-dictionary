@@ -190,5 +190,45 @@
     "meaning_en": "Product Requirements Document",
     "explanation_ja": "製品開発に必要な機能と仕様をまとめた文書。",
     "explanation_en": "Document summarizing the features and specifications required for a product."
+  },
+  {
+    "acronym": "RBAC",
+    "stands_for": "Role Based Access Control",
+    "meaning_ja": "役割ベースアクセス制御",
+    "meaning_en": "Role Based Access Control",
+    "explanation_ja": "ユーザーやグループに対して役割ベースで権限を付与し、アクセスを管理する仕組み。",
+    "explanation_en": "Provides authorization by assigning roles to users or groups to control access."
+  },
+  {
+    "acronym": "SDV",
+    "stands_for": "Software Defined Vehicle",
+    "meaning_ja": "ソフトウェア定義車両",
+    "meaning_en": "Software Defined Vehicle",
+    "explanation_ja": "コア機能や機能をソフトウェアで制御・更新・拡張する現代自動車。",
+    "explanation_en": "A software-defined vehicle (SDV) is a modern automobile in which core functions and features are controlled, updated and enhanced through software rather than fixed hardware systems."
+  },
+  {
+    "acronym": "KPI",
+    "stands_for": "Key Performance Indicator",
+    "meaning_ja": "主要なパフォーマンス指標",
+    "meaning_en": "Key Performance Indicator",
+    "explanation_ja": "特定の目標やプロジェクトの実績を測定する指標。",
+    "explanation_en": "A metric used to evaluate performance against specified objectives."
+  },
+  {
+    "acronym": "KSF",
+    "stands_for": "Key Success Factors",
+    "meaning_ja": "キーサクセスファクター",
+    "meaning_en": "Key Success Factors",
+    "explanation_ja": "プロジェクトやビジネスの成功を左右する重要な要素。",
+    "explanation_en": "Crucial elements that determine the success of a project or business."
+  },
+  {
+    "acronym": "ACL",
+    "stands_for": "Access Control List",
+    "meaning_ja": "アクセス制御リスト",
+    "meaning_en": "Access Control List",
+    "explanation_ja": "コンピュータセキュリティにおけるアクセス制御を実現するために、あるリソースに対して、誰からのどの操作を許可するかを列挙したもの。",
+    "explanation_en": "List of permissions associated with a system resource. It specifies which users or system processes are granted access to resources, as well as what operations are allowed on given resources"
   }
 ]
