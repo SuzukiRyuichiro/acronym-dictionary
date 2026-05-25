@@ -230,5 +230,13 @@
     "meaning_en": "Access Control List",
     "explanation_ja": "コンピュータセキュリティにおけるアクセス制御を実現するために、あるリソースに対して、誰からのどの操作を許可するかを列挙したもの。",
     "explanation_en": "List of permissions associated with a system resource. It specifies which users or system processes are granted access to resources, as well as what operations are allowed on given resources"
+  },
+  {
+    "acronym": "HITL",
+    "stands_for": "Human in the loop",
+    "meaning_ja": "ヒューマンインザループ",
+    "meaning_en": "Human in the loop",
+    "explanation_ja": "機械学習において、モデルを構築する際に、人間がコンピュータを支援して正しい決定を下せるようにするという意味で使われる",
+    "explanation_en": "In machine learning, HITL is used in the sense of humans aiding the computer in making the correct decisions in building a model."
   }
 ]
