@@ -238,5 +238,13 @@
     "meaning_en": "Human in the loop",
     "explanation_ja": "機械学習において、モデルを構築する際に、人間がコンピュータを支援して正しい決定を下せるようにするという意味で使われる",
     "explanation_en": "In machine learning, HITL is used in the sense of humans aiding the computer in making the correct decisions in building a model."
+  },
+  {
+    "acronym": "IDP",
+    "stands_for": "Intelligent Document Processing",
+    "meaning_ja": "インテリジェント文書処理",
+    "meaning_en": "Intelligent Document Processing",
+    "explanation_ja": "AIや機械学習を活用して、非構造化データから情報を自動的に抽出・構造化する技術。",
+    "explanation_en": "Technology that uses AI and machine learning to automatically extract and structure information from unstructured data."
   }
 ]
