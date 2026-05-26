@@ -246,5 +246,14 @@
     "meaning_en": "Intelligent Document Processing",
     "explanation_ja": "AIや機械学習を活用して、非構造化データから情報を自動的に抽出・構造化する技術。",
     "explanation_en": "Technology that uses AI and machine learning to automatically extract and structure information from unstructured data."
+  },
+  {
+    "acronym": "PL/BS",
+    "stands_for": "Profit and Loss / Balance Sheet",
+    "meaning_ja": "損益計算書 / 貸借対照表",
+    "meaning_en": "Profit and Loss / Balance Sheet",
+    "explanation_ja": "企業の経営成績を示す損益計算書と、財務状態を示す貸借対照表。",
+    "explanation_en": "Financial statements showing a company's financial performance and position."
   }
 ]
+
