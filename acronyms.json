@@ -254,6 +254,22 @@
     "meaning_en": "Profit and Loss / Balance Sheet",
     "explanation_ja": "企業の経営成績を示す損益計算書と、財務状態を示す貸借対照表。",
     "explanation_en": "Financial statements showing a company's financial performance and position."
+  },
+  {
+    "acronym": "SDLC",
+    "stands_for": "Software Development Life Cycle",
+    "meaning_ja": "ソフトウェア開発ライフサイクル",
+    "meaning_en": "Software Development Life Cycle",
+    "explanation_ja": "ソフトウェアを計画、開発、テスト、デプロイする一連のプロセス。",
+    "explanation_en": "Process used to plan, develop, test, and deploy software."
+  },
+  {
+    "acronym": "ICE",
+    "stands_for": "Internal Combustion Engine",
+    "meaning_ja": "内燃機関",
+    "meaning_en": "Internal Combustion Engine",
+    "explanation_ja": "シリンダー内部で燃料を燃焼させて動力を発生させる機関。",
+    "explanation_en": "Engine that generates power by burning fuel inside a combustion chamber."
   }
 ]
 
