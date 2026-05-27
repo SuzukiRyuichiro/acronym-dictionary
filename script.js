@@ -32,6 +32,7 @@ async function loadData() {
     const res = await fetch('acronyms.json');
     if (!res.ok) throw new Error('Failed to load acronyms.json');
     const data = await res.json();
+    data.sort((a, b) => a.acronym.localeCompare(b.acronym));
     acronyms.push(...data);
     initLangSelect();
     filtered = acronyms;
