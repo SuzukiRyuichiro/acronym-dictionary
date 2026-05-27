@@ -270,6 +270,14 @@
     "meaning_en": "Internal Combustion Engine",
     "explanation_ja": "シリンダー内部で燃料を燃焼させて動力を発生させる機関。",
     "explanation_en": "Engine that generates power by burning fuel inside a combustion chamber."
+  },
+  {
+    "acronym": "FDE",
+    "stands_for": "Forward Deployed Engineer",
+    "meaning_ja": "フォワードデプロイドエンジニア",
+    "meaning_en": "Forward Deployed Engineer",
+    "explanation_ja": "顧客の現場に常駐して直接課題を解決し、システムの導入や連携を支援する技術者。",
+    "explanation_en": "Engineer who works directly at client sites to solve technical problems and support system deployment."
   }
 ]
 
