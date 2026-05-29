@@ -278,6 +278,22 @@
     "meaning_en": "Forward Deployed Engineer",
     "explanation_ja": "顧客の現場に常駐して直接課題を解決し、システムの導入や連携を支援する技術者。",
     "explanation_en": "Engineer who works directly at client sites to solve technical problems and support system deployment."
+  },
+  {
+    "acronym": "SME",
+    "stands_for": "Small and Medium Enterprise",
+    "meaning_ja": "中小企業",
+    "meaning_en": "Small and Medium Enterprise",
+    "explanation_ja": "資本金や従業員数が一定規模以下の企業。",
+    "explanation_en": "Company whose assets, revenue, or number of employees fall below certain limits."
+  },
+  {
+    "acronym": "PSF",
+    "stands_for": "Problem Solution Fit",
+    "meaning_ja": "課題と解決策の適合",
+    "meaning_en": "Problem Solution Fit",
+    "explanation_ja": "提供する解決策が顧客の抱える課題を解決することを確認した状態。",
+    "explanation_en": "State where a proposed solution is validated to solve a real customer problem."
   }
 ]
 
