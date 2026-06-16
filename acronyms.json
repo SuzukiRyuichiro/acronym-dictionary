@@ -294,6 +294,22 @@
     "meaning_en": "Problem Solution Fit",
     "explanation_ja": "提供する解決策が顧客の抱える課題を解決することを確認した状態。",
     "explanation_en": "State where a proposed solution is validated to solve a real customer problem."
+  },
+  {
+    "acronym": "EDA",
+    "stands_for": "Exploratory Data Analysis",
+    "meaning_ja": "探索的データ分析",
+    "meaning_en": "Exploratory Data Analysis",
+    "explanation_ja": "統計やグラフを用いてデータの構造・パターン・異常を把握する分析手法。",
+    "explanation_en": "Approach using statistics and visualizations to understand data structure, patterns, and anomalies."
+  },
+  {
+    "acronym": "CAE",
+    "stands_for": "Computer-Aided Engineering",
+    "meaning_ja": "コンピュータ支援エンジニアリング",
+    "meaning_en": "Computer-Aided Engineering",
+    "explanation_ja": "シミュレーションソフトウェアを用いて製品の設計・解析・最適化を行う手法。",
+    "explanation_en": "Use of simulation software to design, analyze, and optimize engineering products."
   }
 ]
 
